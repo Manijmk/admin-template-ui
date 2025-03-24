@@ -50,52 +50,54 @@ const Materials = () => {
 
   return (
     <div className="material-form">
-      <div className="form-group">
-        <label>Date of Purchase</label>
-        <select>
-          <option>Select</option>
-        </select>
-      </div>
-
-      <div className="form-group">
-        <label>Product ID</label>
-        <select>
-          <option>Select</option>
-        </select>
-      </div>
-
-      <div className="form-group">
-        <label>Product Name</label>
-        <input type="text" placeholder="Enter" />
-      </div>
-
-      <div className="form-group">
-        <label>Name of the Company</label>
-        <input type="text" placeholder="Enter" />
-      </div>
-
-      <div className="form-group">
-        <label>Quantity</label>
-        <input type="text" placeholder="Enter" />
-      </div>
-
-      {/* Price and Total */}
-      <div className="price-total">
-        <div>
-          <label>Price</label>
-          <input type="text" placeholder="Rs. XX,XXX" disabled />
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label>Date of Purchase</label>
+          <input type="date" required />
         </div>
-        <div>
-          <label>Total</label>
-          <input type="text" placeholder="Rs. XX,XXX" disabled />
-        </div>
-      </div>
 
-      {/* Buttons */}
-      <div className="button-group">
-        <button className="save-btn">Save</button>
-        <button className="cancel-btn">Cancel</button>
-      </div>
+        <div className="form-group">
+          <label>Product ID</label>
+          <input type="text" placeholder="Enter Product ID" required />
+        </div>
+
+        <div className="form-group">
+          <label>Product Name</label>
+          <input type="text" placeholder="Enter Product Name" required />
+        </div>
+
+        <div className="form-group">
+          <label>Name of the Company</label>
+          <input type="text" placeholder="Enter Company Name" required />
+        </div>
+
+        <div className="form-group">
+          <label>Quantity</label>
+          <input type="text" placeholder="Enter Quantity" required />
+        </div>
+
+        {/* Price and Total Fields */}
+        <div className="price-total">
+          <div>
+            <label>Price</label>
+            <input type="text" placeholder="Rs. XX,XXX" disabled />
+          </div>
+          <div>
+            <label>Total</label>
+            <input type="text" placeholder="Rs. XX,XXX" disabled />
+          </div>
+        </div>
+
+        {/* Save & Cancel Buttons */}
+        <div className="button-group">
+          <button type="submit" className="save-btn">
+            Save
+          </button>
+          <button type="button" className="cancel-btn">
+            Cancel
+          </button>
+        </div>
+      </form>
     </div>
   );
 };

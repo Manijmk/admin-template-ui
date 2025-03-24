@@ -1,0 +1,148 @@
+/* Employee Container */
+.employee-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Tabs */
+  .tab-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    padding: 8px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .tab-button.active {
+    background: #6a0dad;
+    color: white;
+    border: none;
+  }
+
+  .employee-form {
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px 20px;
+  }
+  
+  /* Form Labels */
+  .employee-form label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Form Inputs */
+  .employee-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .employee-form input:focus {
+    border-color: #6a0dad;
+  }
+  
+  /* Form Fields */
+  .employee-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Buttons */
+  .employee-form .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .employee-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .employee-form .save-btn {
+    background-color: #6a0dad;
+    color: white;
+  }
+  
+  .employee-form .cancel-btn {
+    background-color: #aaa;
+    color: white;
+  }
+  
+  /* Employee Cards */
+  .employee-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  
+  .employee-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+/* Employee Card Header */
+.employee-header {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start; /* Avatar on left, Name on right */
+    padding-bottom: 10px;
+  }
+  
+  /* Avatar */
+  .employee-avatar {
+    background: #eee;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  
+  /* Name & Role */
+  .employee-info {
+    text-align: right; /* Align name & role to the right */
+  }
+  
+  .employee-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .employee-info .role {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  
+  .employee-card h3 {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .employee-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
