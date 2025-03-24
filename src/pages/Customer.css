@@ -1,0 +1,184 @@
+/* Container */
+.customer-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.tab-button {
+  padding: 8px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tab-button.active {
+  background: #6a0dad;
+  color: white;
+  border: none;
+}
+
+/* Toggle Button Group */
+.toggle-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-button.active {
+  background-color: #6a0dad;
+  color: white;
+}
+
+.toggle-button.inactive {
+  background-color: #e2e2e2;
+  color: black;
+}
+
+/* Form Styling */
+.customer-form {
+  margin-top: 24px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.customer-form label {
+  font-weight: 500;
+  color: #555;
+}
+
+.customer-form input,
+.customer-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.customer-form input:focus,
+.customer-form select:focus {
+  border-color: #6a0dad;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.save-button {
+  background-color: #6a0dad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cancel-button {
+  background-color: #b0b0b0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* View Section Placeholder */
+.view-section {
+  margin-top: 24px;
+  color: #555;
+}
+
+.customer-table-container {
+  margin-top: 20px;
+}
+
+.customer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Add Customer Button */
+.add-customer-button {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.add-icon {
+  font-size: 14px;
+}
+
+.customer-table-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.customer-table th,
+.customer-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.customer-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.customer-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Status Badge */
+.status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.status.active {
+  background-color: #c8f7c5;
+  color: #2a8c2a;
+}
+
+.status.inactive {
+  background-color: #f8d7da;
+  color: #d9534f;
+}
