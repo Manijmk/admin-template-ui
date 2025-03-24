@@ -1,0 +1,76 @@
+/* Material Form Container */
+.material-form {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  /* Form Labels */
+  .material-form label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Form Inputs */
+  .material-form input,
+  .material-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  /* Form Inputs Focus */
+  .material-form input:focus,
+  .material-form select:focus {
+    border-color: #6a0dad;
+  }
+  
+  /* Date and Product Selection */
+  .material-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Price & Total - Inline Styling */
+  .material-form .price-total {
+    background-color: #e8e0f6; /* Light Purple Background */
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .material-form .price-total input {
+    background: #f9f9fc;
+    width: 100%;
+  }
+  
+  /* Buttons */
+  .material-form .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .material-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .material-form .save-btn {
+    background-color: #6a0dad;
+    color: white;
+  }
+  
+  .material-form .cancel-btn {
+    background-color: #aaa;
+    color: white;
+  }
+  

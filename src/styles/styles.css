@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* .app-container {
+  display: flex;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000;
+}
+
+.sidebar {
+  width: 200px;
+  background: #222;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.sidebar a:hover {
+  background: #444;
+}
+
+.content-container {
+  flex: 1;
+  margin-left: 200px;
+  padding: 20px;
+  transition: margin-left 0.3s;
+}
+
+.sidebar.closed + .content-container {
+  margin-left: 0;
+} */
