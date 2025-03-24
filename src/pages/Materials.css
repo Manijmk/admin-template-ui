@@ -5,6 +5,27 @@
     margin: 20px 20px;
   }
   
+  .tab-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    padding: 8px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .tab-button.active {
+    background: #6a0dad;
+    color: white;
+    border: none;
+  }
+
   /* Form Labels */
   .material-form label {
     font-weight: 500;
@@ -43,11 +64,12 @@
     gap: 20px;
     border-radius: 8px;
     margin-bottom: 15px;
+    width: 400px;
   }
   
   .material-form .price-total input {
     background: #f9f9fc;
-    width: 100%;
+    width: 85%;
   }
   
   /* Buttons */
@@ -76,5 +98,6 @@
 
   .price-total {
     justify-content:space-evenly;
+    width: auto;
   }
   
