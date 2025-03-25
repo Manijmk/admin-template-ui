@@ -26,10 +26,6 @@
   overflow: hidden;
 }
 
-.sidebar.closed {
-  width: 70px; /* Smaller width when collapsed */
-}
-
 .sidebar ul {
   list-style-type: none;
   padding: 0;
@@ -65,8 +61,8 @@
 }
 
 .sidebar-collapsed .main-content {
-  margin-left: 70px;
-  width: calc(100% - 70px);
+  margin-left: 95px;
+  width: calc(100% - 95px);
 }
 
 /* Sidebar Styles */
@@ -86,7 +82,7 @@
 
 /* Collapsed Sidebar */
 .sidebar.closed {
-  width: 70px; /* Shrinks when closed */
+  width: 95px; /* Shrinks when closed */
 }
 
 /* Sidebar Toggle Button */
@@ -120,11 +116,6 @@
   flex-direction: column;
   padding: 10px;
   border-right: 1px solid #e0e0e0;
-}
-
-/* Collapsed Sidebar */
-.sidebar.closed {
-  width: 80px; /* Shrinks when closed */
 }
 
 /* Sidebar Menu */
